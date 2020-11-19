@@ -29,7 +29,7 @@ public void draw()
   textSize(20);
   //This is for later parts
   //text("HP: ", 5, 20);
-  text("Teleports left: " + (int)(5-hyperspace), 5, 50);
+  text("TELEPORTS LEFT: " + (int)(5-hyperspace), 5, 50);
 }
 public void keyPressed(){
   if(key == 'w'){
@@ -53,3 +53,5 @@ public void keyPressed(){
     hyperspace++;
   }
 }
+
+
