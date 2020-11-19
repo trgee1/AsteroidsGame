@@ -8,7 +8,7 @@ class Star
     
   }
   public void show(){
-  fill(0, 0, 0);
+    fill(250, 250, 250);
     square(myX, myY, mySiz);
   }
 }
