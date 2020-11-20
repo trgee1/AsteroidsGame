@@ -5,7 +5,7 @@ private int hyperspace = 0;
 
 public void setup() 
 {
-  size(800, 800);
+  size(800, 600);
   background(0);
   frameRate(60);
   glowies = new Star[150];
@@ -26,7 +26,7 @@ public void draw()
   if(accelerate == true){
     rocket.move();
   }
-  textSize(20);
+  textSize(15);
   //This is for later parts
   //text("HP: ", 5, 20);
   text("TELEPORTS LEFT: " + (int)(5-hyperspace), 5, 50);
