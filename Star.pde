@@ -9,6 +9,6 @@ class Star
   }
   public void show(){
     fill(250, 250, 250);
-    square(myX, myY, mySiz);
+    ellipse(myX, myY, mySiz + (int)(Math.random()*2), mySiz);
   }
 }
