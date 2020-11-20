@@ -5,7 +5,7 @@ private int hyperspace = 0;
 
 public void setup() 
 {
-  size(800, 600);
+  size(800, 500);
   background(0);
   frameRate(60);
   glowies = new Star[150];
