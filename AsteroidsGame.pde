@@ -13,7 +13,7 @@ public void setup()
   for(int i = 0; i < 20; i++){
     meteorite.add(i, new Asteroid());
   }
-  size(800, 500);
+  size(800, 400);
   background(0);
   frameRate(60);
   glowies = new Star[75];
@@ -61,9 +61,9 @@ public void draw()
     textAlign(CENTER);
     fill(250, 250, 250);
     textSize(30);
-    text("You Died!", 400, 250);
+    text("You Died!", 400, 170);
     textSize(15);
-    text("Score: " + score, 400, 280);
+    text("Score: " + score, 400, 200);
   }
 }
 public void keyPressed(){
